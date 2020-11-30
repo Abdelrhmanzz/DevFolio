@@ -1,0 +1,600 @@
+body{
+    height:5500px
+    
+}
+
+
+.home{
+    background-image: url(../images/intro-bg.jpg);
+    background-size: 100% 100%;
+    height: 110vh;
+    position: relative;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif!important;
+    background-attachment: fixed;
+    z-index: 2;
+    
+    
+    
+}
+
+
+
+.layer{
+    background-color: rgba(0, 0, 0, .5);
+    width: 100%;
+    height: 110vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -10;
+    
+}
+.header-content h1{
+    font-size: 4.5rem;
+    font-weight: 500;
+    
+}
+.header-content p{
+    font-size: 30px;
+    font-weight: 500;
+}
+
+
+/*
+.caption{
+   
+    text-align: center;
+    position: absolute;
+    top: 280px;
+    left: 300;
+    color: white!important;
+    z-index: 10;
+    
+
+}
+.container .caption h2{
+    font-size: 72px;
+    font-weight: 600px;
+    line-height: 86px;
+    margin-bottom:30px;
+    
+}
+*/
+
+
+.bg-light{
+    background-color: transparent!important;
+}
+
+.navbar-light .navbar-brand{
+    color: white!important;
+    font-weight: 700px;
+    line-height: 38px;
+    font-size: 26px;
+   
+    
+
+}
+.navbar-light .navbar-nav .nav-link{
+    color: white!important;
+    font-weight: 600px;
+    line-height: 24px;
+    font-size: 16px;
+}
+.cv{
+    position: relative;
+    background-color: #F5F5F5;
+    padding-top: 4rem;
+    
+    
+    
+}
+.cv .container{
+    width: 100%;
+    padding: 50px 50px;
+    background-color: white;
+    
+    
+}
+.info-img img{
+    margin-top: 10px;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+.info-caption h6{
+    margin-top: 20px;
+    margin-left:10px ;
+}
+.skills{
+    margin-top: 40px;
+    padding-top: 20px;
+}
+.skills .progress{
+    
+    margin-top: 10px;
+}
+
+
+.percent{
+    float: right;
+}
+.pull{
+    margin-top: 10px;
+}
+
+.about .line{
+    width: 100px;
+    height: 3px;
+    background-color: #0078FF;
+    margin-bottom: 20px;
+}
+.about p{
+    line-height: 30px;
+}
+.service{
+    text-align: center;
+    
+    
+}
+.service .line{
+    background-color: #0078FF;
+    height: 5px;
+    width: 50px;
+    margin: 20px auto;
+}
+.services{
+    text-align: center;
+    background-color: #F5F5F5;
+    padding-top: 4rem;
+   
+}
+
+.one,.two,.three,.four,.five,.six{
+    padding: 2.5rem 1.3rem;
+    border-radius: 1rem;
+    margin-bottom: 3rem;
+    
+    
+}
+i{
+    margin-bottom: 20px;
+}
+.one{
+    background-color: #fff;
+    border-radius: 8px;
+    
+}
+.one .circle{
+    margin: auto;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: white;
+    border: 10px solid #0078FF;
+    transition: all 500ms;
+}
+.one i{
+    margin-top: 25px;
+    font-size: 42px;
+    line-height: 35px;
+    transition: all 500ms;
+}
+.one:hover .circle{
+    background-color:#0078FF ;
+    border: 10px solid #CDE1F8;
+}
+.one:hover i{
+    background-color:#0078FF ;
+    color: white;
+    
+}
+.two{
+    background-color: #fff;
+    border-radius: 8px;
+    
+}
+.two .circle{
+    margin: auto;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: white;
+    border: 10px solid #0078FF;
+    transition: all 500ms;
+}
+.two i{
+    margin-top: 25px;
+    font-size: 42px;
+    line-height: 35px;
+    transition: all 500ms;
+}
+.two:hover .circle{
+    background-color:#0078FF ;
+    border: 10px solid #CDE1F8;
+}
+.two:hover i{
+    background-color:#0078FF ;
+    color: white;
+    
+}
+
+.three{
+    background-color: #fff;
+    border-radius: 8px;
+}
+.three .circle{
+    margin: auto;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: white;
+    border: 10px solid #0078FF;
+    transition: all 500ms;
+}
+.three i{
+    margin-top: 25px;
+    font-size: 42px;
+    line-height: 35px;
+    transition: all 500ms;
+}
+.three:hover .circle{
+    background-color:#0078FF ;
+    border: 10px solid #CDE1F8;
+}
+.three:hover i{
+    background-color:#0078FF ;
+    color: white;
+    
+}
+.four{
+    margin-top: 30px;
+    background-color: #fff;
+    border-radius: 8px;
+}
+.four .circle{
+    margin: auto;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: white;
+    border: 10px solid #0078FF;
+    transition: all 500ms;
+}
+.four i{
+    margin-top: 25px;
+    font-size: 42px;
+    line-height: 35px;
+    transition: all 500ms;
+}
+.four:hover .circle{
+    background-color:#0078FF ;
+    border: 10px solid #CDE1F8;
+}
+.four:hover i{
+    background-color:#0078FF ;
+    color: white;
+    
+}
+.five{
+    margin-top: 30px;
+    background-color: #fff;
+    border-radius: 8px;
+}
+.five .circle{
+    margin: auto;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: white;
+    border: 10px solid #0078FF;
+    transition: all 500ms;
+}
+.five i{
+    margin-top: 25px;
+    font-size: 42px;
+    line-height: 35px;
+    transition: all 500ms;
+}
+.five:hover .circle{
+    background-color:#0078FF ;
+    border: 10px solid #CDE1F8;
+}
+.five:hover i{
+    background-color:#0078FF ;
+    color: white;
+    
+}
+.six{
+    margin-top: 30px;
+    background-color: #fff;
+    border-radius: 8px;
+}
+.six .circle{
+    margin: auto;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: white;
+    border: 10px solid #0078FF;
+    transition: all 500ms;
+}
+.six i{
+    margin-top: 25px;
+    font-size: 42px;
+    line-height: 35px;
+    transition: all 500ms;
+}
+.six:hover .circle{
+    background-color:#0078FF ;
+    border: 10px solid #CDE1F8;
+}
+.six:hover i{
+    background-color:#0078FF ;
+    color: white;
+    
+}
+
+.counters {
+    background-image: url(../images/counters-bg.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-position: center center;
+    position: relative;
+    
+    
+}
+.counters .overlay{
+    background-color: #0078FF;
+    width: 100%;
+    height: 100%;
+    opacity: .7;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.count-circle{
+    margin: auto;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 10px solid #cde1f8;
+    margin-bottom: 20px;
+    
+}
+.count-circle i{
+    margin-top: 10px;
+    font-size: 20px;
+    line-height: 35px;
+ 
+}
+.portfolio{
+    background-color: #F5F5F5;
+}
+.portfolio h3{
+    font-weight: 700;
+    font-size: 3rem;
+}
+.portfolio .line{
+    margin: auto;
+    width: 50px;
+    height: 4px;
+    background-color: #0078FF;
+    margin-bottom: 20px;
+}
+.portfolio .plus-icon{
+    float: right; 
+    font-size: 25px;
+    color:#0078ff;
+    font-weight: 100;
+    
+}
+.portfolio .content{
+    padding: 10px 10px;
+    margin-top: 5px;
+    
+    
+}
+.portfolio h5{
+    font-size: large;
+}
+.portfolio-item img{
+    transition:all 1s;
+
+}
+
+.portfolio-item:hover img{
+    transform: scale(1.4,1.4);
+}
+
+
+.test{
+    background-image: url(../images/overlay-bg.jpg);
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    background-position: center center;
+    position: relative;
+}
+.test .overlay{
+    width: 100%;
+    height: 100%;
+    background-color: #0078ff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: .7;
+}
+
+.test-img{
+    margin-top: 10px;
+    border-radius: 50%;
+}
+.test-1 i{
+    height: 50px;
+    width: 50px;
+    background-color: #fff;
+    color:#0078ff ;
+    font-size: 25px;
+    border-radius: 50%;
+}
+
+.nav-link{
+    background-color: black;  
+}
+.blog-caption .line{
+    background-color: #0078FF;
+    height: 5px;
+    width: 50px;
+    margin: 20px auto;
+}
+.avatar .avatar-img{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    margin-right: 5px;
+    
+}
+.avatar-name{
+    color: black;
+    
+}
+.avatar-name:hover{
+    color:#0078FF ;
+}
+.avatar a{
+    text-decoration: none;
+}
+.avatar-clock{
+    float: right;
+}
+.card-title:hover{
+    color:#0078FF ;
+}
+.card-title{
+    position: relative;
+}
+.card-title::before{
+    content: "TRAVEL";
+    background-color:#0078FF ;
+    position: absolute;
+    bottom: 35px;
+    left: 120px;
+    width: 25%;
+    height: 25px;
+    text-align: center;
+    font-size: 12px;
+    color: #fff;
+    border-radius: 3px;
+    padding: 5px 3px;
+    letter-spacing: 0.1px;
+}
+
+.contact-info{
+    background-image: url(../images/overlay-bg.jpg);
+    background-position: center center;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    position: relative;
+}
+.contact-info .overlay{
+    background-color: #0078FF;
+    width: 100%;
+    height: 100%;
+    opacity: .7;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+}
+.box{
+    position: relative;
+    background-color: #fff;
+    margin-bottom: 3rem;
+    z-index: 2;
+    margin-top: 50px;
+}
+.box .row{
+    margin-left: 15px;
+    margin-right: 15px;
+    padding: 30px 15px;
+   
+}
+
+.contact-info .line{
+    width: 100px;
+    height: 3px;
+    background-color: #0078FF;
+    margin-bottom: 20px;
+
+}
+textarea{
+    width: 100%;
+    padding: 10px 20px;
+    border: 1px solid #CED4DA;
+    
+}
+
+.social{
+    margin-top: 20px;
+    padding: 0 10px;
+    
+}
+.social{
+    
+}
+.social .facebook,.insta,.twitter,.paint{
+    display: inline-block;
+    margin-left: 15px;
+    border: 4px solid #0078FF;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    transition: all 500ms;
+    
+    
+    
+}
+.social i{
+    margin-top: 15px;
+    margin-left: 13px;
+
+}
+.social .facebook:hover{
+    color: #fff;
+    background-color: #0078FF;
+    border: 4px solid #A8CEF9;
+}
+.social .insta:hover{
+    color: #fff;
+    background-color: #0078FF;
+    border: 4px solid #A8CEF9;
+}
+.social .twitter:hover{
+    color: #fff;
+    background-color: #0078FF;
+    border: 4px solid #A8CEF9;
+}
+.social .paint:hover{
+    color: #fff;
+    background-color: #0078FF;
+    border: 4px solid #A8CEF9;
+}
+.send{
+    background: #0078ff;
+    border: 0;
+    padding: 10px 24px;
+    color: #fff;
+    width: 170px;
+    height: 50px;
+    border-radius: 5rem;
+}
+
+footer{
+    background-color: #0062D3;
+    color: #fff;
+    font-size: 10px;
+}
+footer h3{
+    font-size: 17px;
+}
